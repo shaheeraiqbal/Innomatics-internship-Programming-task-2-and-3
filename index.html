@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Uppercase Name</title>
+</head>
+<body>
+    <h2>Converted Name</h2>
+
+    {% if name %}
+        <p>Your name in UPPERCASE is: <strong>{{ name }}</strong></p>
+    {% else %}
+        <p>Please provide a name in the URL.</p>
+        <p>Example: <code>http://127.0.0.1:5000/?name=shaheera</code></p>
+    {% endif %}
+</body>
+</html>
